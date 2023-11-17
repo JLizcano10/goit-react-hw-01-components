@@ -14,7 +14,6 @@ export const App = () => {
         flexDirection: 'column',
       }}
     >
-      React homework template
       <Profile
         username={user.username}
         tag={user.tag}
