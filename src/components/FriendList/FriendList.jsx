@@ -1,4 +1,3 @@
-import React from 'react'
 import { FriendListAvatar, FriendListComponent, FriendListItem, FriendListStatus } from './FriendList.styles';
 
 // const colorStatus = (isOnline) => {
