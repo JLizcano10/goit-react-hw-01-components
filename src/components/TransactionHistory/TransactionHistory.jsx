@@ -5,9 +5,9 @@ const TransactionHistory = ({ items }) => {
       <TransactionTable className="transaction-history">
           <TransactionTableHead>
               <tr>
-                  <th>Type</th>
-                  <th>Amount</th>
-                  <th>Currency</th>
+                  <th style={{border: "1px solid #e7e7e7"}}>Type</th>
+                  <th style={{border: "1px solid #e7e7e7"}}>Amount</th>
+                  <th style={{border: "1px solid #e7e7e7"}}>Currency</th>
               </tr>
           </TransactionTableHead>
           <tbody>
