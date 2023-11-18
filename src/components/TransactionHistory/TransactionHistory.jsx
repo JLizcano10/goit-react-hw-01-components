@@ -1,13 +1,13 @@
-import { TransactionTable, TransactionTableHead, TransactionTableInfo, TransactionTableTd } from "./TransactionHistory.styles";
+import { TransactionTable, TransactionTableHead, TransactionTableInfo, TransactionTableTd, TransactionTableTh } from "./TransactionHistory.styles";
 
 const TransactionHistory = ({ items }) => {
   return (
       <TransactionTable className="transaction-history">
           <TransactionTableHead>
               <tr>
-                  <th style={{border: "1px solid #e7e7e7"}}>Type</th>
-                  <th style={{border: "1px solid #e7e7e7"}}>Amount</th>
-                  <th style={{border: "1px solid #e7e7e7"}}>Currency</th>
+                  <TransactionTableTh>Type</TransactionTableTh>
+                  <TransactionTableTh>Amount</TransactionTableTh>
+                  <TransactionTableTh>Currency</TransactionTableTh>
               </tr>
           </TransactionTableHead>
           <tbody>
