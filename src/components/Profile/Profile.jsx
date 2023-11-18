@@ -8,7 +8,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
       <ProfileDescription className="description">
         <ProfileImage src={avatar} alt={username} className="avatar" />
         <ProfileName className="name">{username}</ProfileName>
-        <ProfileText className="tag">{tag}</ProfileText>
+        <ProfileText className="tag">{`@${tag}`}</ProfileText>
         <ProfileText className="location">{location}</ProfileText>
       </ProfileDescription>
       

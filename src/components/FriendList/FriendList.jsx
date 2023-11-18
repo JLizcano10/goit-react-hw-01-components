@@ -1,10 +1,5 @@
 import { FriendListAvatar, FriendListComponent, FriendListItem, FriendListStatus } from './FriendList.styles';
 
-// const colorStatus = (isOnline) => {
-//     if () {
-        
-//     }
-// }
 
 const FriendList = ({friends}) => {
     return (
